@@ -1,0 +1,1420 @@
+{
+  "meta": {
+    "title": "周易六十四卦完整数据",
+    "description": "I Ching complete dataset for divination web application",
+    "version": "1.0.0",
+    "encoding": "UTF-8"
+  },
+  "trigrams": {
+    "description": "八卦 - The Eight Trigrams",
+    "data": [
+      {
+        "name": "乾",
+        "pinyin": "qián",
+        "binary": "111",
+        "element": "金",
+        "direction": "西北",
+        "nature": "天",
+        "family": "父",
+        "bodyPart": "头",
+        "animal": "马",
+        "season": "秋冬之间",
+        "number": 1,
+        "attribute": "健"
+      },
+      {
+        "name": "兑",
+        "pinyin": "duì",
+        "binary": "110",
+        "element": "金",
+        "direction": "西",
+        "nature": "泽",
+        "family": "少女",
+        "bodyPart": "口",
+        "animal": "羊",
+        "season": "秋",
+        "number": 2,
+        "attribute": "悦"
+      },
+      {
+        "name": "离",
+        "pinyin": "lí",
+        "binary": "101",
+        "element": "火",
+        "direction": "南",
+        "nature": "火",
+        "family": "中女",
+        "bodyPart": "目",
+        "animal": "雉",
+        "season": "夏",
+        "number": 3,
+        "attribute": "丽"
+      },
+      {
+        "name": "震",
+        "pinyin": "zhèn",
+        "binary": "100",
+        "element": "木",
+        "direction": "东",
+        "nature": "雷",
+        "family": "长男",
+        "bodyPart": "足",
+        "animal": "龙",
+        "season": "春",
+        "number": 4,
+        "attribute": "动"
+      },
+      {
+        "name": "巽",
+        "pinyin": "xùn",
+        "binary": "011",
+        "element": "木",
+        "direction": "东南",
+        "nature": "风",
+        "family": "长女",
+        "bodyPart": "股",
+        "animal": "鸡",
+        "season": "春夏之间",
+        "number": 5,
+        "attribute": "入"
+      },
+      {
+        "name": "坎",
+        "pinyin": "kǎn",
+        "binary": "010",
+        "element": "水",
+        "direction": "北",
+        "nature": "水",
+        "family": "中男",
+        "bodyPart": "耳",
+        "animal": "豕",
+        "season": "冬",
+        "number": 6,
+        "attribute": "陷"
+      },
+      {
+        "name": "艮",
+        "pinyin": "gèn",
+        "binary": "001",
+        "element": "土",
+        "direction": "东北",
+        "nature": "山",
+        "family": "少男",
+        "bodyPart": "手",
+        "animal": "狗",
+        "season": "冬春之间",
+        "number": 7,
+        "attribute": "止"
+      },
+      {
+        "name": "坤",
+        "pinyin": "kūn",
+        "binary": "000",
+        "element": "土",
+        "direction": "西南",
+        "nature": "地",
+        "family": "母",
+        "bodyPart": "腹",
+        "animal": "牛",
+        "season": "夏秋之间",
+        "number": 8,
+        "attribute": "顺"
+      }
+    ],
+    "先天八卦数": {
+      "description": "伏羲先天八卦序数，用于梅花易数",
+      "乾": 1,
+      "兑": 2,
+      "离": 3,
+      "震": 4,
+      "巽": 5,
+      "坎": 6,
+      "艮": 7,
+      "坤": 8
+    },
+    "后天八卦数": {
+      "description": "文王后天八卦序数",
+      "坎": 1,
+      "坤": 2,
+      "震": 3,
+      "巽": 4,
+      "中": 5,
+      "乾": 6,
+      "兑": 7,
+      "艮": 8,
+      "离": 9
+    }
+  },
+  "hexagrams": {
+    "description": "六十四卦 - The 64 Hexagrams. binary从下到上(初爻到上爻), 1=阳, 0=阴",
+    "data": [
+      {
+        "number": 1,
+        "name": "乾",
+        "pinyin": "qián",
+        "fullName": "乾为天",
+        "binary": "111111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "乾",
+        "judgment": "元亨利贞",
+        "interpretation": "纯阳之卦，刚健中正。事业亨通，宜积极进取，但须守正道，勿骄傲自满。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 2,
+        "name": "坤",
+        "pinyin": "kūn",
+        "fullName": "坤为地",
+        "binary": "000000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "坤",
+        "judgment": "元亨，利牝马之贞",
+        "interpretation": "纯阴之卦，厚德载物。宜柔顺配合，不宜独断独行，以辅助者姿态行事为佳。",
+        "fortune": "吉"
+      },
+      {
+        "number": 3,
+        "name": "屯",
+        "pinyin": "zhūn",
+        "fullName": "水雷屯",
+        "binary": "100010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "震",
+        "judgment": "元亨利贞，勿用有攸往，利建侯",
+        "interpretation": "万事开头难，处于初创阶段。宜坚守正道，不宜冒进，可寻求贵人帮助。",
+        "fortune": "凶中有吉"
+      },
+      {
+        "number": 4,
+        "name": "蒙",
+        "pinyin": "méng",
+        "fullName": "山水蒙",
+        "binary": "010001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "坎",
+        "judgment": "亨。匪我求童蒙，童蒙求我",
+        "interpretation": "蒙昧未开，需要启蒙教育。宜虚心学习，求教于人，不宜自以为是。",
+        "fortune": "平"
+      },
+      {
+        "number": 5,
+        "name": "需",
+        "pinyin": "xū",
+        "fullName": "水天需",
+        "binary": "111010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "乾",
+        "judgment": "有孚，光亨，贞吉，利涉大川",
+        "interpretation": "等待时机，以诚信待人。目前时机未到，宜耐心等候，不可操之过急。",
+        "fortune": "吉"
+      },
+      {
+        "number": 6,
+        "name": "讼",
+        "pinyin": "sòng",
+        "fullName": "天水讼",
+        "binary": "010111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "坎",
+        "judgment": "有孚窒惕，中吉，终凶",
+        "interpretation": "争讼之象，不宜强争。退让为上，和解为妙，久讼必有灾殃。",
+        "fortune": "凶"
+      },
+      {
+        "number": 7,
+        "name": "师",
+        "pinyin": "shī",
+        "fullName": "地水师",
+        "binary": "010000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "坎",
+        "judgment": "贞，丈人吉，无咎",
+        "interpretation": "兵众之象，宜以正道统率。需要有德之人领导，行事须名正言顺。",
+        "fortune": "平"
+      },
+      {
+        "number": 8,
+        "name": "比",
+        "pinyin": "bǐ",
+        "fullName": "水地比",
+        "binary": "000010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "坤",
+        "judgment": "吉。原筮元永贞，无咎",
+        "interpretation": "亲近辅助之象。宜团结合作，亲近贤人，但须慎选所交之人。",
+        "fortune": "吉"
+      },
+      {
+        "number": 9,
+        "name": "小畜",
+        "pinyin": "xiǎo xù",
+        "fullName": "风天小畜",
+        "binary": "111011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "乾",
+        "judgment": "亨，密云不雨，自我西郊",
+        "interpretation": "力量不足以畜大，小有积蓄。目前力量有限，宜小步积累，不宜大举行动。",
+        "fortune": "平"
+      },
+      {
+        "number": 10,
+        "name": "履",
+        "pinyin": "lǚ",
+        "fullName": "天泽履",
+        "binary": "110111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "兑",
+        "judgment": "履虎尾，不咥人，亨",
+        "interpretation": "如履虎尾须谨慎。处事以礼，小心翼翼，虽有危险但能化解。",
+        "fortune": "平"
+      },
+      {
+        "number": 11,
+        "name": "泰",
+        "pinyin": "tài",
+        "fullName": "地天泰",
+        "binary": "111000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "乾",
+        "judgment": "小往大来，吉亨",
+        "interpretation": "天地交泰，万物通达。上下和睦，诸事顺遂，是大吉之卦。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 12,
+        "name": "否",
+        "pinyin": "pǐ",
+        "fullName": "天地否",
+        "binary": "000111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "坤",
+        "judgment": "否之匪人，不利君子贞",
+        "interpretation": "天地不交，闭塞不通。诸事不顺，宜守静待变，勿妄动。",
+        "fortune": "凶"
+      },
+      {
+        "number": 13,
+        "name": "同人",
+        "pinyin": "tóng rén",
+        "fullName": "天火同人",
+        "binary": "101111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "离",
+        "judgment": "同人于野，亨，利涉大川",
+        "interpretation": "志同道合，与人合作。宜广结善缘，团结一心，可成大事。",
+        "fortune": "吉"
+      },
+      {
+        "number": 14,
+        "name": "大有",
+        "pinyin": "dà yǒu",
+        "fullName": "火天大有",
+        "binary": "111101",
+        "upperTrigram": "离",
+        "lowerTrigram": "乾",
+        "judgment": "元亨",
+        "interpretation": "大有收获之象。事业兴旺，财运亨通，但须谦虚谨慎，勿骄奢。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 15,
+        "name": "谦",
+        "pinyin": "qiān",
+        "fullName": "地山谦",
+        "binary": "001000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "艮",
+        "judgment": "亨，君子有终",
+        "interpretation": "谦虚之德，有始有终。以谦卑态度行事，必获善果，诸事亨通。",
+        "fortune": "吉"
+      },
+      {
+        "number": 16,
+        "name": "豫",
+        "pinyin": "yù",
+        "fullName": "雷地豫",
+        "binary": "000100",
+        "upperTrigram": "震",
+        "lowerTrigram": "坤",
+        "judgment": "利建侯行师",
+        "interpretation": "欢乐豫悦之象。顺势而为，把握时机行动，但不可过度享乐而懈怠。",
+        "fortune": "吉"
+      },
+      {
+        "number": 17,
+        "name": "随",
+        "pinyin": "suí",
+        "fullName": "泽雷随",
+        "binary": "100110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "震",
+        "judgment": "元亨利贞，无咎",
+        "interpretation": "随顺而行，顺应时势。宜灵活应变，随机而动，不可固执己见。",
+        "fortune": "吉"
+      },
+      {
+        "number": 18,
+        "name": "蛊",
+        "pinyin": "gǔ",
+        "fullName": "山风蛊",
+        "binary": "011001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "巽",
+        "judgment": "元亨，利涉大川，先甲三日，后甲三日",
+        "interpretation": "积弊待治，拨乱反正。有腐败需要整治，宜大力改革，重整旗鼓。",
+        "fortune": "平"
+      },
+      {
+        "number": 19,
+        "name": "临",
+        "pinyin": "lín",
+        "fullName": "地泽临",
+        "binary": "110000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "兑",
+        "judgment": "元亨利贞，至于八月有凶",
+        "interpretation": "居高临下，监临之象。目前形势有利，但好景不长，宜居安思危。",
+        "fortune": "吉"
+      },
+      {
+        "number": 20,
+        "name": "观",
+        "pinyin": "guān",
+        "fullName": "风地观",
+        "binary": "000011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "坤",
+        "judgment": "盥而不荐，有孚颙若",
+        "interpretation": "观察审视之象。宜冷静观察形势，以诚感人，不宜轻举妄动。",
+        "fortune": "平"
+      },
+      {
+        "number": 21,
+        "name": "噬嗑",
+        "pinyin": "shì kè",
+        "fullName": "火雷噬嗑",
+        "binary": "100101",
+        "upperTrigram": "离",
+        "lowerTrigram": "震",
+        "judgment": "亨，利用狱",
+        "interpretation": "咬合之象，刑罚分明。有障碍需要强力排除，宜果断处理问题。",
+        "fortune": "平"
+      },
+      {
+        "number": 22,
+        "name": "贲",
+        "pinyin": "bì",
+        "fullName": "山火贲",
+        "binary": "101001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "离",
+        "judgment": "亨，小利有攸往",
+        "interpretation": "文饰之象，外表华美。注重修饰，小事可成，大事不宜，勿重形式轻实质。",
+        "fortune": "平"
+      },
+      {
+        "number": 23,
+        "name": "剥",
+        "pinyin": "bō",
+        "fullName": "山地剥",
+        "binary": "000001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "坤",
+        "judgment": "不利有攸往",
+        "interpretation": "剥落衰败之象。时运不济，诸事不宜，宜静守待变，保存实力。",
+        "fortune": "凶"
+      },
+      {
+        "number": 24,
+        "name": "复",
+        "pinyin": "fù",
+        "fullName": "地雷复",
+        "binary": "100000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "震",
+        "judgment": "亨。出入无疾，朋来无咎，反复其道，七日来复",
+        "interpretation": "一阳来复，否极泰来。转机已现，宜把握良机重新出发。",
+        "fortune": "吉"
+      },
+      {
+        "number": 25,
+        "name": "无妄",
+        "pinyin": "wú wàng",
+        "fullName": "天雷无妄",
+        "binary": "100111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "震",
+        "judgment": "元亨利贞，其匪正有眚，不利有攸往",
+        "interpretation": "真实无妄，不可妄为。行事须合乎正道，不可存有非分之想。",
+        "fortune": "平"
+      },
+      {
+        "number": 26,
+        "name": "大畜",
+        "pinyin": "dà xù",
+        "fullName": "山天大畜",
+        "binary": "111001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "乾",
+        "judgment": "利贞，不家食吉，利涉大川",
+        "interpretation": "大有积蓄之象。实力充足，宜施展才华，出外发展，可获大成。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 27,
+        "name": "颐",
+        "pinyin": "yí",
+        "fullName": "山雷颐",
+        "binary": "100001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "震",
+        "judgment": "贞吉。观颐，自求口实",
+        "interpretation": "颐养之道，注意养生。宜谨慎饮食言语，自食其力，不可贪求。",
+        "fortune": "平"
+      },
+      {
+        "number": 28,
+        "name": "大过",
+        "pinyin": "dà guò",
+        "fullName": "泽风大过",
+        "binary": "011110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "巽",
+        "judgment": "栋桡，利有攸往，亨",
+        "interpretation": "大过之象，负担过重。处非常之时，须有非常之举，宜果断行动。",
+        "fortune": "凶中有吉"
+      },
+      {
+        "number": 29,
+        "name": "坎",
+        "pinyin": "kǎn",
+        "fullName": "坎为水",
+        "binary": "010010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "坎",
+        "judgment": "习坎，有孚，维心亨，行有尚",
+        "interpretation": "重重险难之象。处境困难，但只要内心诚信坚定，终能脱险。",
+        "fortune": "凶"
+      },
+      {
+        "number": 30,
+        "name": "离",
+        "pinyin": "lí",
+        "fullName": "离为火",
+        "binary": "101101",
+        "upperTrigram": "离",
+        "lowerTrigram": "离",
+        "judgment": "利贞，亨。畜牝牛，吉",
+        "interpretation": "光明附丽之象。宜依附正道，柔顺中正，文明以止，可获吉祥。",
+        "fortune": "吉"
+      },
+      {
+        "number": 31,
+        "name": "咸",
+        "pinyin": "xián",
+        "fullName": "泽山咸",
+        "binary": "001110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "艮",
+        "judgment": "亨，利贞，取女吉",
+        "interpretation": "感应之象，男女交感。感情事顺利，宜以真心感动人，婚姻吉利。",
+        "fortune": "吉"
+      },
+      {
+        "number": 32,
+        "name": "恒",
+        "pinyin": "héng",
+        "fullName": "雷风恒",
+        "binary": "011100",
+        "upperTrigram": "震",
+        "lowerTrigram": "巽",
+        "judgment": "亨，无咎，利贞，利有攸往",
+        "interpretation": "恒久之道，持之以恒。宜坚持不懈，守常不变，婚姻事业皆宜。",
+        "fortune": "吉"
+      },
+      {
+        "number": 33,
+        "name": "遁",
+        "pinyin": "dùn",
+        "fullName": "天山遁",
+        "binary": "001111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "艮",
+        "judgment": "亨，小利贞",
+        "interpretation": "退避隐遁之象。小人当道，宜主动退让回避，保存实力以待时机。",
+        "fortune": "平"
+      },
+      {
+        "number": 34,
+        "name": "大壮",
+        "pinyin": "dà zhuàng",
+        "fullName": "雷天大壮",
+        "binary": "111100",
+        "upperTrigram": "震",
+        "lowerTrigram": "乾",
+        "judgment": "利贞",
+        "interpretation": "壮大刚强之象。实力强盛，但须守正道，不可恃强凌弱。",
+        "fortune": "吉"
+      },
+      {
+        "number": 35,
+        "name": "晋",
+        "pinyin": "jìn",
+        "fullName": "火地晋",
+        "binary": "000101",
+        "upperTrigram": "离",
+        "lowerTrigram": "坤",
+        "judgment": "康侯用锡马蕃庶，昼日三接",
+        "interpretation": "日出地上，光明上进。事业升迁，前途光明，宜积极进取。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 36,
+        "name": "明夷",
+        "pinyin": "míng yí",
+        "fullName": "地火明夷",
+        "binary": "101000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "离",
+        "judgment": "利艰贞",
+        "interpretation": "光明受损，韬光养晦。处境艰难，宜隐藏才华，忍耐等待时机。",
+        "fortune": "凶"
+      },
+      {
+        "number": 37,
+        "name": "家人",
+        "pinyin": "jiā rén",
+        "fullName": "风火家人",
+        "binary": "101011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "离",
+        "judgment": "利女贞",
+        "interpretation": "治家之道，各安其位。家庭和睦为先，宜正家风，各尽本分。",
+        "fortune": "吉"
+      },
+      {
+        "number": 38,
+        "name": "睽",
+        "pinyin": "kuí",
+        "fullName": "火泽睽",
+        "binary": "110101",
+        "upperTrigram": "离",
+        "lowerTrigram": "兑",
+        "judgment": "小事吉",
+        "interpretation": "乖违背离之象。意见不合，关系不睦，小事可成，大事不宜。",
+        "fortune": "平"
+      },
+      {
+        "number": 39,
+        "name": "蹇",
+        "pinyin": "jiǎn",
+        "fullName": "水山蹇",
+        "binary": "001010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "艮",
+        "judgment": "利西南，不利东北，利见大人，贞吉",
+        "interpretation": "行路艰难之象。前方险阻重重，宜退守或另寻出路，求助贵人。",
+        "fortune": "凶"
+      },
+      {
+        "number": 40,
+        "name": "解",
+        "pinyin": "xiè",
+        "fullName": "雷水解",
+        "binary": "010100",
+        "upperTrigram": "震",
+        "lowerTrigram": "坎",
+        "judgment": "利西南，无所往，其来复吉，有攸往，夙吉",
+        "interpretation": "困难解除之象。难关已过，宜速战速决，恢复常态，不可拖延。",
+        "fortune": "吉"
+      },
+      {
+        "number": 41,
+        "name": "损",
+        "pinyin": "sǔn",
+        "fullName": "山泽损",
+        "binary": "110001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "兑",
+        "judgment": "有孚，元吉，无咎，可贞，利有攸往",
+        "interpretation": "减损之象，先损后益。有所付出才有收获，宜节制欲望，诚心行事。",
+        "fortune": "平"
+      },
+      {
+        "number": 42,
+        "name": "益",
+        "pinyin": "yì",
+        "fullName": "风雷益",
+        "binary": "100011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "震",
+        "judgment": "利有攸往，利涉大川",
+        "interpretation": "增益之象，利人利己。时运正佳，宜积极行动，把握机遇。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 43,
+        "name": "夬",
+        "pinyin": "guài",
+        "fullName": "泽天夬",
+        "binary": "111110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "乾",
+        "judgment": "扬于王庭，孚号有厉，告自邑，不利即戎，利有攸往",
+        "interpretation": "决断之象，以柔克刚。宜果断除弊，但不可用武力，以德服人。",
+        "fortune": "平"
+      },
+      {
+        "number": 44,
+        "name": "姤",
+        "pinyin": "gòu",
+        "fullName": "天风姤",
+        "binary": "011111",
+        "upperTrigram": "乾",
+        "lowerTrigram": "巽",
+        "judgment": "女壮，勿用取女",
+        "interpretation": "不期而遇之象。阴柔渐长，小人势盛，宜提防，不可轻信。",
+        "fortune": "凶"
+      },
+      {
+        "number": 45,
+        "name": "萃",
+        "pinyin": "cuì",
+        "fullName": "泽地萃",
+        "binary": "000110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "坤",
+        "judgment": "亨。王假有庙，利见大人，亨利贞",
+        "interpretation": "聚集之象，人才汇聚。宜团结众人，以诚信为本，祭祀祈福皆利。",
+        "fortune": "吉"
+      },
+      {
+        "number": 46,
+        "name": "升",
+        "pinyin": "shēng",
+        "fullName": "地风升",
+        "binary": "011000",
+        "upperTrigram": "坤",
+        "lowerTrigram": "巽",
+        "judgment": "元亨，用见大人，勿恤，南征吉",
+        "interpretation": "上升发展之象。如木生长，步步高升，宜积极进取，拜见贵人。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 47,
+        "name": "困",
+        "pinyin": "kùn",
+        "fullName": "泽水困",
+        "binary": "010110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "坎",
+        "judgment": "亨，贞大人吉，无咎，有言不信",
+        "interpretation": "穷困受围之象。处境艰难，但守正则终能脱困，多说无益，宜以行动证明。",
+        "fortune": "凶"
+      },
+      {
+        "number": 48,
+        "name": "井",
+        "pinyin": "jǐng",
+        "fullName": "水风井",
+        "binary": "011010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "巽",
+        "judgment": "改邑不改井，无丧无得，往来井井",
+        "interpretation": "水井不迁之象。不变应万变，坚守本业，修德养身，利己利人。",
+        "fortune": "平"
+      },
+      {
+        "number": 49,
+        "name": "革",
+        "pinyin": "gé",
+        "fullName": "泽火革",
+        "binary": "101110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "离",
+        "judgment": "已日乃孚，元亨利贞，悔亡",
+        "interpretation": "变革更新之象。旧事物需要改革，时机成熟则宜果断变革，除旧布新。",
+        "fortune": "吉"
+      },
+      {
+        "number": 50,
+        "name": "鼎",
+        "pinyin": "dǐng",
+        "fullName": "火风鼎",
+        "binary": "011101",
+        "upperTrigram": "离",
+        "lowerTrigram": "巽",
+        "judgment": "元吉，亨",
+        "interpretation": "鼎新之象，革故鼎新。新事业开始，宜任用贤才，可获大成功。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 51,
+        "name": "震",
+        "pinyin": "zhèn",
+        "fullName": "震为雷",
+        "binary": "100100",
+        "upperTrigram": "震",
+        "lowerTrigram": "震",
+        "judgment": "亨。震来虩虩，笑言哑哑",
+        "interpretation": "雷声震动之象。受到惊吓震动，但能临危不乱则化险为夷，宜反省自身。",
+        "fortune": "平"
+      },
+      {
+        "number": 52,
+        "name": "艮",
+        "pinyin": "gèn",
+        "fullName": "艮为山",
+        "binary": "001001",
+        "upperTrigram": "艮",
+        "lowerTrigram": "艮",
+        "judgment": "艮其背，不获其身，行其庭，不见其人，无咎",
+        "interpretation": "静止不动之象。宜止则止，时机未到不可妄动，安静等待为上。",
+        "fortune": "平"
+      },
+      {
+        "number": 53,
+        "name": "渐",
+        "pinyin": "jiàn",
+        "fullName": "风山渐",
+        "binary": "001011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "艮",
+        "judgment": "女归吉，利贞",
+        "interpretation": "循序渐进之象。不可急躁，按部就班，逐步发展，婚姻吉利。",
+        "fortune": "吉"
+      },
+      {
+        "number": 54,
+        "name": "归妹",
+        "pinyin": "guī mèi",
+        "fullName": "雷泽归妹",
+        "binary": "110100",
+        "upperTrigram": "震",
+        "lowerTrigram": "兑",
+        "judgment": "征凶，无攸利",
+        "interpretation": "少女出嫁之象。行事不合常理，勉强行之必凶，宜慎重考虑。",
+        "fortune": "凶"
+      },
+      {
+        "number": 55,
+        "name": "丰",
+        "pinyin": "fēng",
+        "fullName": "雷火丰",
+        "binary": "101100",
+        "upperTrigram": "震",
+        "lowerTrigram": "离",
+        "judgment": "亨，王假之，勿忧，宜日中",
+        "interpretation": "丰盛硕大之象。事业兴旺达到顶峰，但盛极必衰，宜居安思危。",
+        "fortune": "吉"
+      },
+      {
+        "number": 56,
+        "name": "旅",
+        "pinyin": "lǚ",
+        "fullName": "火山旅",
+        "binary": "001101",
+        "upperTrigram": "离",
+        "lowerTrigram": "艮",
+        "judgment": "小亨，旅贞吉",
+        "interpretation": "旅途在外之象。客居他乡，宜谦逊小心，小事可成，大事不宜。",
+        "fortune": "平"
+      },
+      {
+        "number": 57,
+        "name": "巽",
+        "pinyin": "xùn",
+        "fullName": "巽为风",
+        "binary": "011011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "巽",
+        "judgment": "小亨，利有攸往，利见大人",
+        "interpretation": "顺从深入之象。以柔顺态度行事，逐步深入，宜请教贵人指点。",
+        "fortune": "平"
+      },
+      {
+        "number": 58,
+        "name": "兑",
+        "pinyin": "duì",
+        "fullName": "兑为泽",
+        "binary": "110110",
+        "upperTrigram": "兑",
+        "lowerTrigram": "兑",
+        "judgment": "亨，利贞",
+        "interpretation": "喜悦和乐之象。人际关系融洽，心情愉快，但不可过度放纵享乐。",
+        "fortune": "吉"
+      },
+      {
+        "number": 59,
+        "name": "涣",
+        "pinyin": "huàn",
+        "fullName": "风水涣",
+        "binary": "010011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "坎",
+        "judgment": "亨。王假有庙，利涉大川，利贞",
+        "interpretation": "涣散离散之象。人心涣散，需要凝聚人心，宜以精神力量团结众人。",
+        "fortune": "平"
+      },
+      {
+        "number": 60,
+        "name": "节",
+        "pinyin": "jié",
+        "fullName": "水泽节",
+        "binary": "110010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "兑",
+        "judgment": "亨，苦节不可贞",
+        "interpretation": "节制有度之象。凡事有节制方能亨通，但过度节俭则不可取。",
+        "fortune": "平"
+      },
+      {
+        "number": 61,
+        "name": "中孚",
+        "pinyin": "zhōng fú",
+        "fullName": "风泽中孚",
+        "binary": "110011",
+        "upperTrigram": "巽",
+        "lowerTrigram": "兑",
+        "judgment": "豚鱼吉，利涉大川，利贞",
+        "interpretation": "诚信中正之象。以真诚待人，信用为本，可感化万物，诸事顺利。",
+        "fortune": "大吉"
+      },
+      {
+        "number": 62,
+        "name": "小过",
+        "pinyin": "xiǎo guò",
+        "fullName": "雷山小过",
+        "binary": "001100",
+        "upperTrigram": "震",
+        "lowerTrigram": "艮",
+        "judgment": "亨利贞，可小事，不可大事",
+        "interpretation": "小有过越之象。小事可为，大事不宜，宜谦逊低调，不可好高骛远。",
+        "fortune": "平"
+      },
+      {
+        "number": 63,
+        "name": "既济",
+        "pinyin": "jì jì",
+        "fullName": "水火既济",
+        "binary": "101010",
+        "upperTrigram": "坎",
+        "lowerTrigram": "离",
+        "judgment": "亨小，利贞，初吉终乱",
+        "interpretation": "事已成就之象。目前已达目标，但须防功成之后生乱，宜慎终如始。",
+        "fortune": "吉转平"
+      },
+      {
+        "number": 64,
+        "name": "未济",
+        "pinyin": "wèi jì",
+        "fullName": "火水未济",
+        "binary": "010101",
+        "upperTrigram": "离",
+        "lowerTrigram": "坎",
+        "judgment": "亨，小狐汔济，濡其尾，无攸利",
+        "interpretation": "事未完成之象。尚未成功，仍需努力，但曙光在前，宜谨慎推进。",
+        "fortune": "平转吉"
+      }
+    ]
+  },
+  "divination": {
+    "liuyao": {
+      "description": "六爻占卜法 - Six Lines Divination Method",
+      "coinMethod": {
+        "name": "三枚铜钱法",
+        "description": "以三枚铜钱摇卦，共摇六次，从初爻到上爻依次记录",
+        "rules": {
+          "coins": "三枚铜钱（或硬币），字面为阴（值2），花面为阳（值3）",
+          "process": [
+            "1. 三枚铜钱合于手中，心中默念所问之事",
+            "2. 双手摇动后掷出，记录结果",
+            "3. 共掷六次，第一次为初爻（最下面），第六次为上爻（最上面）"
+          ],
+          "lineTypes": [
+            {
+              "combination": "三字（三阴）",
+              "value": 6,
+              "line": "老阴 ▅▅ ▅▅ ×",
+              "type": "yin_moving",
+              "description": "老阴，阴极变阳，为动爻"
+            },
+            {
+              "combination": "二字一花（二阴一阳）",
+              "value": 7,
+              "line": "少阳 ▅▅▅▅▅",
+              "type": "yang_stable",
+              "description": "少阳，阳爻不动"
+            },
+            {
+              "combination": "一字二花（一阴二阳）",
+              "value": 8,
+              "line": "少阴 ▅▅ ▅▅",
+              "type": "yin_stable",
+              "description": "少阴，阴爻不动"
+            },
+            {
+              "combination": "三花（三阳）",
+              "value": 9,
+              "line": "老阳 ▅▅▅▅▅ ○",
+              "type": "yang_moving",
+              "description": "老阳，阳极变阴，为动爻"
+            }
+          ]
+        },
+        "movingLines": {
+          "description": "动爻判断规则",
+          "rules": [
+            "值为6（老阴）或9（老阳）的爻为动爻",
+            "动爻会变化：老阳变少阴，老阴变少阳",
+            "本卦为摇出的原始卦象，变卦为动爻变化后的卦象",
+            "动爻是断卦的关键所在"
+          ],
+          "interpretationRules": [
+            {
+              "case": "无动爻",
+              "rule": "以本卦卦辞断"
+            },
+            {
+              "case": "一个动爻",
+              "rule": "以本卦动爻爻辞断"
+            },
+            {
+              "case": "两个动爻",
+              "rule": "以本卦两个动爻爻辞断，以上面的为主"
+            },
+            {
+              "case": "三个动爻",
+              "rule": "以本卦和变卦卦辞综合判断"
+            },
+            {
+              "case": "四个动爻",
+              "rule": "以变卦中两个不动爻爻辞断"
+            },
+            {
+              "case": "五个动爻",
+              "rule": "以变卦中不动爻爻辞断"
+            },
+            {
+              "case": "六个动爻",
+              "rule": "乾坤二卦以用辞断，其余以变卦卦辞断"
+            }
+          ]
+        }
+      },
+      "sixRelations": {
+        "name": "六亲 - Six Relations",
+        "description": "根据卦宫五行与各爻地支五行的生克关系确定",
+        "relations": [
+          {
+            "name": "父母",
+            "pinyin": "fù mǔ",
+            "relation": "生我者为父母",
+            "meanings": {
+              "general": "长辈、上级、文书、房屋、衣服、车船",
+              "positive": "有庇护、文书顺利、考试有利",
+              "negative": "操劳、辛苦、束缚"
+            }
+          },
+          {
+            "name": "兄弟",
+            "pinyin": "xiōng dì",
+            "relation": "与我同类者为兄弟",
+            "meanings": {
+              "general": "同辈、同事、朋友、竞争者",
+              "positive": "有帮助、合作顺利",
+              "negative": "破财、竞争、口舌、阻碍求财"
+            }
+          },
+          {
+            "name": "子孙",
+            "pinyin": "zǐ sūn",
+            "relation": "我生者为子孙",
+            "meanings": {
+              "general": "晚辈、子女、学生、下属、医药",
+              "positive": "福德之神，消灾解难、平安快乐",
+              "negative": "克制官运、不利求官升职"
+            }
+          },
+          {
+            "name": "妻财",
+            "pinyin": "qī cái",
+            "relation": "我克者为妻财",
+            "meanings": {
+              "general": "妻子、女友、财物、财运、物质",
+              "positive": "财运亨通、感情顺利",
+              "negative": "因财生祸、色难"
+            }
+          },
+          {
+            "name": "官鬼",
+            "pinyin": "guān guǐ",
+            "relation": "克我者为官鬼",
+            "meanings": {
+              "general": "官职、上司、丈夫、疾病、灾祸、鬼神",
+              "positive": "求官有望、丈夫有能",
+              "negative": "灾祸、疾病、小人、官非"
+            }
+          }
+        ],
+        "determination": {
+          "description": "六亲确定方法",
+          "rule": "以卦所属宫的五行为\"我\"，与各爻地支所属五行比较",
+          "fiveElementsCycle": {
+            "生我": "父母",
+            "我生": "子孙",
+            "克我": "官鬼",
+            "我克": "妻财",
+            "同我": "兄弟"
+          }
+        }
+      },
+      "worldResponse": {
+        "name": "世应",
+        "description": "世爻代表自己，应爻代表对方或所问之事",
+        "rule": "根据卦宫和卦变规则确定世爻和应爻的位置，世应相隔两位"
+      },
+      "sixAnimals": {
+        "name": "六兽（六神）",
+        "description": "按日天干配六兽",
+        "animals": [
+          {
+            "name": "青龙",
+            "element": "木",
+            "meaning": "吉庆、喜事、饮酒"
+          },
+          {
+            "name": "朱雀",
+            "element": "火",
+            "meaning": "文书、口舌、信息"
+          },
+          {
+            "name": "勾陈",
+            "element": "土",
+            "meaning": "田土、牢狱、迟滞"
+          },
+          {
+            "name": "螣蛇",
+            "element": "火",
+            "meaning": "惊恐、怪异、虚惊"
+          },
+          {
+            "name": "白虎",
+            "element": "金",
+            "meaning": "凶丧、血光、刚猛"
+          },
+          {
+            "name": "玄武",
+            "element": "水",
+            "meaning": "盗贼、暗昧、欺诈"
+          }
+        ],
+        "dayAssignment": {
+          "甲乙日": "青龙起初爻",
+          "丙丁日": "朱雀起初爻",
+          "戊日": "勾陈起初爻",
+          "己日": "螣蛇起初爻",
+          "庚辛日": "白虎起初爻",
+          "壬癸日": "玄武起初爻"
+        }
+      }
+    },
+    "meihua": {
+      "description": "梅花易数 - Plum Blossom Numerology",
+      "author": "宋·邵雍（邵康节）所创",
+      "timeMethod": {
+        "name": "时间起卦法",
+        "description": "以起卦时间的年月日时数字起卦",
+        "steps": [
+          "1. 记录起卦时间的农历年、月、日、时",
+          "2. 年数：以地支序数代替（子1丑2寅3卯4辰5巳6午7未8申9酉10戌11亥12）",
+          "3. 上卦 = （年数 + 月数 + 日数）÷ 8 取余数，余数对应先天八卦数",
+          "4. 下卦 = （年数 + 月数 + 日数 + 时辰数）÷ 8 取余数",
+          "5. 动爻 = （年数 + 月数 + 日数 + 时辰数）÷ 6 取余数",
+          "6. 余数为0时，上下卦取8（坤），动爻取6（上爻）"
+        ],
+        "timeNumbers": {
+          "子": 1,
+          "丑": 2,
+          "寅": 3,
+          "卯": 4,
+          "辰": 5,
+          "巳": 6,
+          "午": 7,
+          "未": 8,
+          "申": 9,
+          "酉": 10,
+          "戌": 11,
+          "亥": 12
+        },
+        "example": {
+          "time": "甲子年三月十五日午时",
+          "calculation": {
+            "yearNumber": 1,
+            "monthNumber": 3,
+            "dayNumber": 15,
+            "hourNumber": 7,
+            "upperTrigram": "(1+3+15) % 8 = 19 % 8 = 3 -> 离",
+            "lowerTrigram": "(1+3+15+7) % 8 = 26 % 8 = 2 -> 兑",
+            "movingLine": "(1+3+15+7) % 6 = 26 % 6 = 2 -> 第二爻动"
+          }
+        }
+      },
+      "numberMethod": {
+        "name": "数字起卦法",
+        "description": "以任意数字起卦",
+        "methods": [
+          {
+            "name": "两数起卦",
+            "steps": [
+              "1. 取两个数字（如手机尾号、门牌号等）",
+              "2. 第一个数 ÷ 8 取余 -> 上卦（先天八卦数）",
+              "3. 第二个数 ÷ 8 取余 -> 下卦",
+              "4. 两数之和 ÷ 6 取余 -> 动爻",
+              "5. 余数为0时，卦取8（坤），动爻取6"
+            ]
+          },
+          {
+            "name": "单数起卦",
+            "steps": [
+              "1. 取一个多位数",
+              "2. 前半部分数字之和 ÷ 8 取余 -> 上卦",
+              "3. 后半部分数字之和 ÷ 8 取余 -> 下卦",
+              "4. 全部数字之和 ÷ 6 取余 -> 动爻"
+            ]
+          }
+        ],
+        "trigramMapping": {
+          "description": "先天八卦数与卦的对应",
+          "1": "乾",
+          "2": "兑",
+          "3": "离",
+          "4": "震",
+          "5": "巽",
+          "6": "坎",
+          "7": "艮",
+          "8": "坤"
+        }
+      },
+      "tiYongMethod": {
+        "name": "体用法",
+        "description": "梅花易数核心断卦方法",
+        "concept": {
+          "体卦": "不含动爻的经卦，代表自己、主体、问卦人",
+          "用卦": "含有动爻的经卦，代表对方、客体、所问之事",
+          "互卦": "二三四爻为下互卦，三四五爻为上互卦，代表事情发展过程",
+          "变卦": "动爻变化后用卦所成的新经卦，代表事情结果"
+        },
+        "rules": [
+          "动爻在上卦 -> 上卦为用卦，下卦为体卦",
+          "动爻在下卦 -> 下卦为用卦，上卦为体卦"
+        ],
+        "interpretation": {
+          "description": "以五行生克关系断吉凶",
+          "rules": [
+            {
+              "pattern": "用生体",
+              "result": "吉",
+              "description": "对方有利于我，事情顺利，有收获"
+            },
+            {
+              "pattern": "体生用",
+              "result": "凶",
+              "description": "我消耗于对方，有付出损失"
+            },
+            {
+              "pattern": "用克体",
+              "result": "凶",
+              "description": "对方制约我，事情不利，有阻碍"
+            },
+            {
+              "pattern": "体克用",
+              "result": "吉",
+              "description": "我制约对方，事情可成，有收获"
+            },
+            {
+              "pattern": "体用比和",
+              "result": "吉",
+              "description": "双方和谐，事情平顺"
+            }
+          ]
+        },
+        "detailedInterpretation": {
+          "description": "具体事项断法",
+          "aspects": [
+            {
+              "aspect": "求财",
+              "favorable": "体克用或用生体",
+              "unfavorable": "用克体或体生用"
+            },
+            {
+              "aspect": "婚姻",
+              "favorable": "体用比和或用生体",
+              "unfavorable": "体用相克"
+            },
+            {
+              "aspect": "疾病",
+              "favorable": "体旺且体克用",
+              "unfavorable": "用克体且体弱"
+            },
+            {
+              "aspect": "考试",
+              "favorable": "用生体",
+              "unfavorable": "体生用或用克体"
+            },
+            {
+              "aspect": "诉讼",
+              "favorable": "体克用且体旺",
+              "unfavorable": "用克体"
+            }
+          ]
+        }
+      },
+      "otherMethods": {
+        "description": "其他起卦方法",
+        "methods": [
+          {
+            "name": "声音起卦",
+            "rule": "听到声响，以声数起卦"
+          },
+          {
+            "name": "文字起卦",
+            "rule": "以字的笔画数起卦"
+          },
+          {
+            "name": "方位起卦",
+            "rule": "以来人方位配先天八卦"
+          },
+          {
+            "name": "颜色起卦",
+            "rule": "以颜色对应五行起卦"
+          },
+          {
+            "name": "随机起卦",
+            "rule": "心有所感，随取数字起卦"
+          }
+        ]
+      }
+    }
+  },
+  "fiveElements": {
+    "name": "五行 - Five Elements",
+    "cycle": {
+      "generating": {
+        "name": "相生",
+        "order": [
+          "木生火",
+          "火生土",
+          "土生金",
+          "金生水",
+          "水生木"
+        ]
+      },
+      "overcoming": {
+        "name": "相克",
+        "order": [
+          "木克土",
+          "土克水",
+          "水克火",
+          "火克金",
+          "金克木"
+        ]
+      }
+    },
+    "trigramElements": {
+      "乾": "金",
+      "兑": "金",
+      "离": "火",
+      "震": "木",
+      "巽": "木",
+      "坎": "水",
+      "艮": "土",
+      "坤": "土"
+    }
+  },
+  "lookup": {
+    "description": "上下卦查卦表：lookup[upperTrigramBinary][lowerTrigramBinary] = hexagram number",
+    "table": {
+      "111": {
+        "111": 1,
+        "010": 6,
+        "110": 10,
+        "000": 12,
+        "101": 13,
+        "100": 25,
+        "001": 33,
+        "011": 44
+      },
+      "000": {
+        "000": 2,
+        "010": 7,
+        "111": 11,
+        "001": 15,
+        "110": 19,
+        "100": 24,
+        "101": 36,
+        "011": 46
+      },
+      "010": {
+        "100": 3,
+        "111": 5,
+        "000": 8,
+        "010": 29,
+        "001": 39,
+        "011": 48,
+        "110": 60,
+        "101": 63
+      },
+      "001": {
+        "010": 4,
+        "011": 18,
+        "101": 22,
+        "000": 23,
+        "111": 26,
+        "100": 27,
+        "110": 41,
+        "001": 52
+      },
+      "011": {
+        "111": 9,
+        "000": 20,
+        "101": 37,
+        "100": 42,
+        "001": 53,
+        "011": 57,
+        "010": 59,
+        "110": 61
+      },
+      "101": {
+        "111": 14,
+        "100": 21,
+        "101": 30,
+        "000": 35,
+        "110": 38,
+        "011": 50,
+        "001": 56,
+        "010": 64
+      },
+      "100": {
+        "000": 16,
+        "011": 32,
+        "111": 34,
+        "010": 40,
+        "100": 51,
+        "110": 54,
+        "101": 55,
+        "001": 62
+      },
+      "110": {
+        "100": 17,
+        "011": 28,
+        "001": 31,
+        "111": 43,
+        "000": 45,
+        "010": 47,
+        "101": 49,
+        "110": 58
+      }
+    }
+  }
+}
